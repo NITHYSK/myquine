@@ -1,4 +1,4 @@
-#define GEN 0
+#define GEN 126
 #include <stdio.h>
 int main(int argc, char **argv){
 	printf("generadion = %d\n", GEN+1);

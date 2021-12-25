@@ -1,6 +1,7 @@
-﻿CFLAGS=-std=c11 -g -static
-TARGET = quine
-SOURCES = $(wildcard *.c)
+CFLAGS	=-std=c11 -g -static
+TARGET	= quine
+SOURCES	= $(wildcard *.c)
+CC	= cc
 
 $(TARGET): $(SOURCES)
 	     $(CC) -o $@ $^
